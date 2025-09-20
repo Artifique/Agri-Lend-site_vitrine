@@ -1,38 +1,168 @@
-.App {
+:root {
+  --primary-color: #004d40; /* Dark Teal */
+  --secondary-color: #4caf50; /* Green */
+  --accent-color: #2196f3; /* Blue */
+  --text-color: #333;
+  --background-color: #fff;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--background-color);
+  border-bottom: 1px solid #eee;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.navbar-logo {
+  color: var(--primary-color);
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-item {
+  height: 80px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-links {
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-links:hover {
+  border-bottom: 4px solid var(--secondary-color);
+  transition: all 0.2s ease-out;
+}
+
+/* Home Section */
+.home-container {
+  background: linear-gradient(to right, rgba(0, 77, 64, 0.8), rgba(76, 175, 80, 0.8)), url('https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=1974&auto=format&fit=crop');
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  color: #fff;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.home-header h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-header p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: 1px solid var(--secondary-color);
+}
+
+/* Sections */
+.about-section, .services-section, .contact-section {
+    padding: 4rem 0;
+}
+
+.about-section h2, .services-section h2, .contact-section h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+/* Services Section */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.service-card {
+    background: #f9f9f9;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.service-card h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact-form textarea {
+    resize: vertical;
 }
