@@ -2,7 +2,7 @@
   "name": "agrilend-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://artifique.github.io/agrilend-website",
+  "homepage": "https://artifique.github.io/Agri-Lend-site_vitrine",
   "dependencies": {
     "@formspree/react": "^3.0.0",
     "@testing-library/dom": "^10.4.1",
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }

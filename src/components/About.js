@@ -9,7 +9,7 @@ const About = () => {
         <p>
           Agri-Lend révolutionne la manière dont les agriculteurs vendent leurs produits et dont les acheteurs s'approvisionnent. 
           Notre mission est de créer un écosystème transparent et équitable qui bénéficie à toutes les parties, en éliminant les intermédiaires.
-          Grâce à la technologie blockchain, nous assurons des transactions sécurisées et une traçabilité complète, de la ferme à votre porte.
+          Grâce à la technologie Hedera, nous assurons des transactions sécurisées et une traçabilité complète, de la ferme à votre porte.
         </p>
       </div>
     </section>
