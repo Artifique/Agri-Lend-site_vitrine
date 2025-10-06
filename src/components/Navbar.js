@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import logo from '../logo.png';
 
@@ -26,6 +25,11 @@ const Navbar = () => {
           <li className="nav-item">
             <a href="#services" className="nav-links" onClick={closeMobileMenu}>
               Services
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#testimonials" className="nav-links" onClick={closeMobileMenu}>
+              Témoignages
             </a>
           </li>
           <li className="nav-item">
