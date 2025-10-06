@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/Agri-Lend-site_vitrine/static/css/main.e7a97e01.css",
-    "main.js": "/Agri-Lend-site_vitrine/static/js/main.10a9c9b3.js",
+    "main.css": "/Agri-Lend-site_vitrine/static/css/main.14dc26ee.css",
+    "main.js": "/Agri-Lend-site_vitrine/static/js/main.aedff9c0.js",
     "static/js/453.b2d71949.chunk.js": "/Agri-Lend-site_vitrine/static/js/453.b2d71949.chunk.js",
     "static/media/logo.png": "/Agri-Lend-site_vitrine/static/media/logo.cbf7a242454a330fb53b.png",
+    "static/media/about-image.jpg": "/Agri-Lend-site_vitrine/static/media/about-image.b3f26b0664cbe3ddc344.jpg",
     "index.html": "/Agri-Lend-site_vitrine/index.html",
-    "main.e7a97e01.css.map": "/Agri-Lend-site_vitrine/static/css/main.e7a97e01.css.map",
-    "main.10a9c9b3.js.map": "/Agri-Lend-site_vitrine/static/js/main.10a9c9b3.js.map",
+    "main.14dc26ee.css.map": "/Agri-Lend-site_vitrine/static/css/main.14dc26ee.css.map",
+    "main.aedff9c0.js.map": "/Agri-Lend-site_vitrine/static/js/main.aedff9c0.js.map",
     "453.b2d71949.chunk.js.map": "/Agri-Lend-site_vitrine/static/js/453.b2d71949.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7a97e01.css",
-    "static/js/main.10a9c9b3.js"
+    "static/css/main.14dc26ee.css",
+    "static/js/main.aedff9c0.js"
   ]
 }
