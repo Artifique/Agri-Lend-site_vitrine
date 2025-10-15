@@ -4,15 +4,15 @@ const Testimonials = () => {
   const testimonials = [
     {
       quote: "Agri-Lend a transformé ma façon de vendre mes récoltes. C'est simple, direct et juste.",
-      author: "Jean Dupont, Agriculteur"
+      author: "Madou Coulibaly, Agriculteur"
     },
     {
       quote: "Enfin une plateforme qui garantit la fraîcheur et la traçabilité des produits. Je recommande !",
-      author: "Marie Martin, Chef de restaurant"
+      author: "Cheick Diallo, Acheteur"
     },
     {
-      quote: "La sécurité des transactions et la logistique optimisée me font gagner un temps précieux.",
-      author: "Pauline Lefebvre, Gérante de coopérative"
+      quote: "Grâce à cette plateforme, j’ai pu vendre ma récolte beaucoup plus rapidement qu’avant. Tout est clair, les échanges sont professionnels, et j’ai enfin accès à des acheteurs que je n’aurais jamais pu atteindre seul",
+      author: "Arouna Traoré, Agriculteur"
     }
   ];
 
